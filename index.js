@@ -58,7 +58,7 @@ function validarAno(){
 // Lista candidatos ------------------------------------------------------------------------
 function listaCandidatos(){
     console.log(`Lista de candidatos:`.magenta +`
-    ` + `${candidato1.numero} - ${candidato2.nome}`.red +`
+    ` + `${candidato1.numero} - ${candidato1.nome}`.red +`
     ` + `${candidato2.numero} - ${candidato2.nome}`.yellow +`
     ` + `${candidato3.numero} - ${candidato3.nome}`.cyan);
 }
